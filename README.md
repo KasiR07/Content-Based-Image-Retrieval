@@ -49,10 +49,37 @@ Type 4:
 # Results
 The use of perceptual image hashing for CBIR offers several advantages. First, it eliminates the need for computationally expensive feature extraction, which makes it a faster and more efficient method. Second, perceptual image hashing can handle large datasets without compromising accuracy. This is particularly useful for applications that involve huge image databases, such as those found on the internet. Third, perceptual image hashing provides a flexible way to compare images based on their content. It can be customized to consider different features, such as color, texture, or shape, depending on the application. Moreover, by using the Multiprocessing package in Python, we were able to further improve the efficiency of the CBIR process. Multiprocessing allowed us to take advantage of the multiple CPU cores available on modern computers, enabling faster execution of CPU-bound tasks. This allowed us to search through large datasets more quickly, making the CBIR system more scalable. Overall, the results and discussions suggest that perceptual image hashing and multiprocessing are promising approaches for CBIR applications. By using these techniques, we can achieve accurate and efficient similarity search without the need for computationally expensive feature extraction. This enables us to search through large image databases more quickly, making CBIR more scalable and applicable to a wide range of applications.
 
-#Conclusion
+# Conclusion
 Moreover, by taking advantage of parallel processing using the Multiprocessing package in Python, we can further improve the efficiency of the CBIR process, enabling us to search through large datasets faster. The Multiprocessing package in Python allows for the creation of multiple processes that can run concurrently, taking advantage of multiple CPU cores to improve performance. This makes it an ideal tool for CBIR applications that involve heavy computation and can be parallelized. By using the Multiprocessing package, we were able to speed up the perceptual image hashing process, reducing the time it takes to obtain photos and making the CBIR system more scalable. While CBIR is a relatively new technique, its potential applications are vast, from image retrieval to medical imaging and beyond. By leveraging the power of perceptual image hashing and parallel processing using the Multiprocessing package in Python, we can unlock the full potential of CBIR and enable new applications that were previously impractical.
 
+# Implementation
+Implementing a hash function
 
+![image](https://github.com/KasiR07/Content-Based-Image-Retrieval/assets/108777263/ad127cf9-4446-478c-baec-09c04f2f5b0c)
 
+Converting to grayscale
 
+![image](https://github.com/KasiR07/Content-Based-Image-Retrieval/assets/108777263/a7caac01-319c-4eca-811f-a7c8d0a5e359)
 
+Resizing the image
+
+![image](https://github.com/KasiR07/Content-Based-Image-Retrieval/assets/108777263/211c1722-05c9-479e-94d2-f59d2c9e221d)
+
+Computing the difference and building the hash value
+
+![image](https://github.com/KasiR07/Content-Based-Image-Retrieval/assets/108777263/a21c3cd7-86e7-45ee-be93-6905b2efad52)
+
+Hashing a directory of images
+
+![image](https://github.com/KasiR07/Content-Based-Image-Retrieval/assets/108777263/afb84a9e-4691-4abf-af9f-7fd3dbefe806)
+
+![image](https://github.com/KasiR07/Content-Based-Image-Retrieval/assets/108777263/418321f5-6a0f-4bf5-bc5c-64285d4d2f4d)
+
+Content based Image Retrieval
+![image](https://github.com/KasiR07/Content-Based-Image-Retrieval/assets/108777263/90d6b53a-2f7a-4cd8-b318-29b56de0e3aa)
+
+Similar Images
+
+![image](https://github.com/KasiR07/Content-Based-Image-Retrieval/assets/108777263/910b03f0-0804-4b7d-b103-5b4d4e8052d8)
+
+![image](https://github.com/KasiR07/Content-Based-Image-Retrieval/assets/108777263/227a9544-0ad0-4399-9ef9-a419a25fa1f2)
